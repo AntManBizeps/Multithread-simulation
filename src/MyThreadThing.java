@@ -21,19 +21,6 @@ public class MyThreadThing extends Thread
     square.setRandomColor();
    } 
 
-//    public void pauseThread() {
-        
-//             isPaused = true;
-           
-//     }
-    
-//     public void resumeThread() {
-        
-//             isPaused = false;
-//             notify();
-        
-        
-//     }
 
     synchronized public void setBlocked() 
     {

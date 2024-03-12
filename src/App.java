@@ -14,9 +14,9 @@ public class App extends Application{
     @Override
     public void start(Stage stage) throws Exception {
         final GUI gui = new GUI(stage);
-        stage.setOnCloseRequest(event -> {
-            NewBoard.stopThreads();
-        });
+        // stage.setOnCloseRequest(event -> {
+        //     NewBoard.stopThreads();
+        // });
 
         
     }
